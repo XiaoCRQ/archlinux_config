@@ -5,6 +5,13 @@
 
 ## 📦 初始化与配置
 
+### 登陆账户
+
+```bash
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+```
+
 ### 初始化仓库
 
 ```bash
@@ -22,7 +29,7 @@ git commit -m "你的提交信息"   # 提交更改
 
 git remote add origin https://github.com/yourname/my-project.git
 
-git push -u origin main       # 或 master，取决于你的默认分支
+git push --set-upstream origin main
 ```
 
 - 全部推送
